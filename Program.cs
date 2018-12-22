@@ -32,7 +32,6 @@ namespace ExchangeConsole
         }
        static async void GetData()
        {
-         //added test comment
          
            HttpClient client = new HttpClient();
            var serializer = new DataContractJsonSerializer(typeof(List<Exchange>));
