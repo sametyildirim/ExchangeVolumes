@@ -50,11 +50,6 @@ namespace ExchangeConsole
                     exchangePrice.name=exchange.name;
                     exchangePrice.coin="ALL";
                     exchangePrice.volume=volume;
-                    
-                    //Console.WriteLine(exchangePrice.exchangeid+" "+exchangePrice.coin+" "+exchangePrice.volume);
-             //https://stackoverflow.com/questions/37750451/send-http-post-message-in-asp-net-core-using-httpclient-postasjsonasync
-             //https://docs.microsoft.com/tr-tr/dotnet/framework/wcf/feature-details/how-to-serialize-and-deserialize-json-data
-             //Create a stream to serialize the object to.  
                   MemoryStream ms = new MemoryStream();  
 
              
