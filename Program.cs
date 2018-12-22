@@ -38,7 +38,8 @@ namespace ExchangeConsole
           
            var streamTask = client.GetStreamAsync("http://localhost:3000/api/exchange");
            var exchanges = serializer.ReadObject(await streamTask) as List<Exchange>;
-           foreach (var exchange in exchanges)
+     
+         foreach (var exchange in exchanges)
            {
                     var html = @"https://coinmarketcap.com/exchanges/"+exchange.name+"/";
                     HtmlWeb web = new HtmlWeb();
