@@ -28,7 +28,6 @@ namespace ExchangeConsole
         static void Main(string[] args)
         {
             GetData();
-            Console.ReadLine();
         }
        static async void GetData()
        {
